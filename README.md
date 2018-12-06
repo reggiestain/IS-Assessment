@@ -132,3 +132,30 @@ Finds the lowest absolute sum of elements
 * $arr **ISAssessment\type**
 
 
+PHPUnit Tests
+=============================
+
+Installation
+------------
+
+This project assumes you have composer installed.
+Simply add:
+
+    "require-dev": {
+       "phpunit/phpunit": "^7", 
+    }
+
+To your composer.json, and then you can simply install with:
+
+    composer install
+
+
+Usage
+-----
+
+First ensure that phpunit is installed 
+
+To run all tests for the Assessment class functions we just need to point the PHPUnit command-line test runner to the test directory:
+
+    # phpunit command
+    phpunit --bootstrap vendor/autoload.php tests/app/ISAssessment/AssessmentTest
