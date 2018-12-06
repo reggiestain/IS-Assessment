@@ -385,6 +385,60 @@
         ]
     },
     {
+        "name": "evert/phpdoc-md",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/evert/phpdoc-md.git",
+            "reference": "afa89bd55de9d27abcfebaf3a3c0097f7590dd11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/evert/phpdoc-md/zipball/afa89bd55de9d27abcfebaf3a3c0097f7590dd11",
+            "reference": "afa89bd55de9d27abcfebaf3a3c0097f7590dd11",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1",
+            "twig/twig": "~1.2|2.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "~2.8.0",
+            "sabre/cs": "~0.0.5"
+        },
+        "time": "2016-02-11T22:08:37+00:00",
+        "bin": [
+            "bin/phpdocmd"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPDocMD\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Evert Pot",
+                "email": "evert@rooftopsolutions.nl",
+                "homepage": "http://www.rooftopsolutions.nl/",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP documentation generator, with markdown output",
+        "homepage": "https://github.com/evert/phpdoc-md",
+        "keywords": [
+            "markdown",
+            "php",
+            "phpdoc"
+        ]
+    },
+    {
         "name": "herrera-io/json",
         "version": "1.0.3",
         "version_normalized": "1.0.3.0",

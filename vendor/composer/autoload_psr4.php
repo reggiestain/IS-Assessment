@@ -34,6 +34,7 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),
+    'PHPDocMD\\' => array($vendorDir . '/evert/phpdoc-md/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'JsonSchema\\' => array($vendorDir . '/justinrainbow/json-schema/src/JsonSchema'),
     'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
