@@ -1,0 +1,13 @@
+{
+    "name": "assessment/is",
+    "description": "IS Technical Assessment",
+    "autoload":{
+        "psr-4":{
+          "ISAssessment\\" : "app/ISAssessment" 
+        }
+    },
+    "require-dev": {
+       "phpunit/phpunit": "^7", 
+       "phpdocumentor/phpdocumentor":"2.*"
+    }
+}
