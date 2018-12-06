@@ -157,5 +157,5 @@ First ensure that phpunit is installed
 
 To run all tests for the Assessment class functions we just need to point the PHPUnit command-line test runner to the test directory:
 
-    # phpunit command
+    # cd vendor/bin and run phpunit command
     phpunit --bootstrap vendor/autoload.php tests/app/ISAssessment/AssessmentTest
